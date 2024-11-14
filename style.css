@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Pacifico&family=Young+Serif&display=swap");
+/*nav section starts*/
+.nav-head {
+  background-color: navy;
+  height: 5;
+  position: sticky;
+}
+.img-logo {
+  font-family: "Pacifico", serif;
+}
+.nav-link:hover {
+  background-color: orange;
+  text-decoration: underline;
+}
+.nav-icon:hover {
+  transform: scale(1.2);
+  gap: 2px;
+  margin-right: 10px;
+}
+.nav-icon2:hover {
+  transform: scale(1.2);
+  display: flex;
+  margin-left: 10px;
+}
+.nav-btn {
+  background-color: orange;
+  border-radius: 1rem;
+}
+.nav-btn:hover {
+  background-color: orange;
+  text-decoration: underline;
+  border-radius: 1rem;
+}
+
+/*nav section ends*/
+body {
+  background-color: w;
+}
+/*Hero Section starts*/
+
+.hero-section {
+  background-image: url(front\ picture.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 3rem;
+}
+@media screen and (min-width: 760px) {
+  .hero-section {
+    padding: 15rem;
+  }
+}
+.hero-section h2 {
+  font-family: "Young Serif", serif;
+}
+.card {
+  max-width: 500px;
+  margin: auto;
+}
+.btn-cta {
+  background-color: red;
+  color: #ffffff;
+  border: none;
+  padding: 2px 6px;
+}
+.btn-spicy {
+  background: linear-gradient(45deg, red);
+  border: none;
+  color: white;
+}
+.btn-spicy:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+/*hero section ends*/
+.form-section {
+  background-image: url(hotel\ image.jpg);
+}
+.card--forms {
+  background: #ebd6d7;
+}
+.seach--button {
+  padding: 0.5rem;
+  background: #a0d2eb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*Destination section starts*/
+
+.flight-section {
+  background: #511d47;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  /* max-width: 1000px; */
+  margin-inline: auto;
+}
+.flight-card {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.flight-image {
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.top-deal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #003580;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.flight-details {
+  padding: 19px;
+}
+.price {
+  font-size: 15px;
+  font-weight: bold;
+  color: #333;
+}
+.date-range {
+  font-size: 12px;
+  color: #666;
+  font-weight: 700;
+}
+.card-title {
+  font-family: "Lora", serif;
+}
+
+.book-button {
+  background-color: #ff9800;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+  width: 100%;
+  width: 15rem;
+  margin-left: 4rem;
+}
+.book-button:hover {
+  background-color: #e68900;
+}
+/*Destination section starts*/
+
+.carousel-section {
+  max-width: 500px;
+  margin-inline: auto;
+}
+.carousel-text {
+  font-family: "Pacifico", serif;
+  color: black;
+  font-weight: bolder;
+  margin: auto;
+}
